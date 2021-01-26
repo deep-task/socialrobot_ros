@@ -1,0 +1,4 @@
+use_bluetooth: False
+bluetooth_mac : 2C:BA:BA:69:99:AB
+itool_id : '01'
+robot_id : 'bomy_0001'

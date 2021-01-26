@@ -1,0 +1,129 @@
+************************************* Invoked: 월 1월 25 14:06:17 2021
+[0] Arguments: ./DynamixelWizard2Setup_x64
+[0] Operations sanity check succeeded.
+[30] Loaded control script ":/metadata/installer-config/controlscript_qs.qs"
+[30] Using control script: ":/metadata/installer-config/controlscript_qs.qs"
+[6454] Control script callback "TargetDirectoryPageCallback" does not exist.
+[64811] Control script callback "ComponentSelectionPageCallback" does not exist.
+[74853] Installation space required: "87.45 MB" Temporary space required: "0.00 bytes" Local repository size: "0.00 bytes"
+[74854] Tmp and install directories are on the same volume. Volume mount point: "/" Free space available: "41.66 GB"
+[74854] Control script callback "ReadyForInstallationPageCallback" does not exist.
+[75791] Control script callback "PerformInstallationPageCallback" does not exist.
+[75822] perform  operation: Mkdir
+[75822] 	- arguments: /home/bomy/ROBOTIS
+[75822] Done
+[75822] backup  operation: Mkdir
+[75822] 	- arguments: /home/bomy/ROBOTIS/DynamixelWizard2
+[75822] Done
+[75822] perform  operation: Mkdir
+[75822] 	- arguments: /home/bomy/ROBOTIS/DynamixelWizard2
+[75822] Done
+[75822] Install size: 1 components
+[75825] backup com.robotis.wizard2 operation: Extract
+[75825] 	- arguments: installer://com.robotis.wizard2/2.0.7.0bearer.7z, /home/bomy/ROBOTIS/DynamixelWizard2
+[75825] Done
+[75825] perform com.robotis.wizard2 operation: Extract
+[75825] 	- arguments: installer://com.robotis.wizard2/2.0.7.0bearer.7z, /home/bomy/ROBOTIS/DynamixelWizard2
+[75835] Done
+[75835] backup com.robotis.wizard2 operation: Extract
+[75835] 	- arguments: installer://com.robotis.wizard2/2.0.7.0content.7z, /home/bomy/ROBOTIS/DynamixelWizard2
+[75835] Done
+[75835] perform com.robotis.wizard2 operation: Extract
+[75835] 	- arguments: installer://com.robotis.wizard2/2.0.7.0content.7z, /home/bomy/ROBOTIS/DynamixelWizard2
+[77080] Done
+[77080] backup com.robotis.wizard2 operation: Extract
+[77080] 	- arguments: installer://com.robotis.wizard2/2.0.7.0iconengines.7z, /home/bomy/ROBOTIS/DynamixelWizard2
+[77080] Done
+[77080] perform com.robotis.wizard2 operation: Extract
+[77080] 	- arguments: installer://com.robotis.wizard2/2.0.7.0iconengines.7z, /home/bomy/ROBOTIS/DynamixelWizard2
+[77082] Done
+[77082] backup com.robotis.wizard2 operation: Extract
+[77082] 	- arguments: installer://com.robotis.wizard2/2.0.7.0imageformats.7z, /home/bomy/ROBOTIS/DynamixelWizard2
+[77082] Done
+[77082] perform com.robotis.wizard2 operation: Extract
+[77082] 	- arguments: installer://com.robotis.wizard2/2.0.7.0imageformats.7z, /home/bomy/ROBOTIS/DynamixelWizard2
+[77112] Done
+[77112] backup com.robotis.wizard2 operation: Extract
+[77112] 	- arguments: installer://com.robotis.wizard2/2.0.7.0platforminputcontexts.7z, /home/bomy/ROBOTIS/DynamixelWizard2
+[77112] Done
+[77112] perform com.robotis.wizard2 operation: Extract
+[77112] 	- arguments: installer://com.robotis.wizard2/2.0.7.0platforminputcontexts.7z, /home/bomy/ROBOTIS/DynamixelWizard2
+[77116] Done
+[77116] backup com.robotis.wizard2 operation: Extract
+[77116] 	- arguments: installer://com.robotis.wizard2/2.0.7.0platforms.7z, /home/bomy/ROBOTIS/DynamixelWizard2
+[77116] Done
+[77116] perform com.robotis.wizard2 operation: Extract
+[77116] 	- arguments: installer://com.robotis.wizard2/2.0.7.0platforms.7z, /home/bomy/ROBOTIS/DynamixelWizard2
+[77116] Done
+[77116] backup com.robotis.wizard2 operation: Extract
+[77116] 	- arguments: installer://com.robotis.wizard2/2.0.7.0xcbglintegrations.7z, /home/bomy/ROBOTIS/DynamixelWizard2
+[77116] Done
+[77117] perform com.robotis.wizard2 operation: Extract
+[77117] 	- arguments: installer://com.robotis.wizard2/2.0.7.0xcbglintegrations.7z, /home/bomy/ROBOTIS/DynamixelWizard2
+[77119] Done
+[77119] backup com.robotis.wizard2 operation: CreateDesktopEntry
+[77119] 	- arguments: DynamixelWizard2.desktop, Type=Application
+Terminal=false
+Encoding=UTF-8
+Name=Dynamixel Wizard 2
+Exec='/home/bomy/ROBOTIS/DynamixelWizard2/DynamixelWizard2.sh'
+Icon=/home/bomy/ROBOTIS/DynamixelWizard2/icon.png
+[77119] Done
+[77120] perform com.robotis.wizard2 operation: CreateDesktopEntry
+[77120] 	- arguments: DynamixelWizard2.desktop, Type=Application
+Terminal=false
+Encoding=UTF-8
+Name=Dynamixel Wizard 2
+Exec='/home/bomy/ROBOTIS/DynamixelWizard2/DynamixelWizard2.sh'
+Icon=/home/bomy/ROBOTIS/DynamixelWizard2/icon.png
+[77120] Done
+[77121] Writing maintenance tool: "/home/bomy/ROBOTIS/DynamixelWizard2/maintenancetool.new"
+[77156] Wrote permissions for maintenance tool.
+[77166] Maintenance tool restart: false.
+[77169] Control script callback "FinishedPageCallback" does not exist.
+[96597] starting "/home/bomy/ROBOTIS/DynamixelWizard2/DynamixelWizard2.sh" ()
+************************************* Invoked: 월 1월 25 14:07:54 2021
+[0] Operations sanity check succeeded.
+[83] addDownloadable "bearer.7z"
+[83] addDownloadable "iconengines.7z"
+[83] addDownloadable "imageformats.7z"
+[83] addDownloadable "platforminputcontexts.7z"
+[83] addDownloadable "platforms.7z"
+[83] addDownloadable "xcbglintegrations.7z"
+[83] addDownloadable "content.7z"
+************************************* Invoked: 월 1월 25 14:12:53 2021
+[0] Operations sanity check succeeded.
+[196] addDownloadable "bearer.7z"
+[196] addDownloadable "iconengines.7z"
+[196] addDownloadable "imageformats.7z"
+[196] addDownloadable "platforminputcontexts.7z"
+[196] addDownloadable "platforms.7z"
+[196] addDownloadable "xcbglintegrations.7z"
+[196] addDownloadable "content.7z"
+************************************* Invoked: 월 1월 25 14:46:42 2021
+[0] Operations sanity check succeeded.
+[275] addDownloadable "bearer.7z"
+[275] addDownloadable "iconengines.7z"
+[275] addDownloadable "imageformats.7z"
+[275] addDownloadable "platforminputcontexts.7z"
+[275] addDownloadable "platforms.7z"
+[275] addDownloadable "xcbglintegrations.7z"
+[275] addDownloadable "content.7z"
+************************************* Invoked: 월 1월 25 15:10:54 2021
+[0] Operations sanity check succeeded.
+[53] addDownloadable "bearer.7z"
+[53] addDownloadable "iconengines.7z"
+[53] addDownloadable "imageformats.7z"
+[54] addDownloadable "platforminputcontexts.7z"
+[54] addDownloadable "platforms.7z"
+[54] addDownloadable "xcbglintegrations.7z"
+[54] addDownloadable "content.7z"
+************************************* Invoked: 월 1월 25 16:26:42 2021
+[0] Operations sanity check succeeded.
+[39] addDownloadable "bearer.7z"
+[39] addDownloadable "iconengines.7z"
+[39] addDownloadable "imageformats.7z"
+[39] addDownloadable "platforminputcontexts.7z"
+[39] addDownloadable "platforms.7z"
+[39] addDownloadable "xcbglintegrations.7z"
+[39] addDownloadable "content.7z"
