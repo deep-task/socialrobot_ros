@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<launch>
+    <include file="$(find social_robot_arm_sdk)/launch/social_robot_arm_sdk.launch" />
+
+    <node name="rosserial_core" pkg="rosserial_python" type="serial_node.py" output="screen">
+        <param name="port" type="string" value="/dev/ttyACM0" />
+        <param name="baud" type="int" value="57600" />
+    </node>
+    
+    <node name="player" pkg="social_motion_player" type="social_motion_player" />
+    <node name="avatar" pkg="social_avatar" type="social_avatar" />
+    <node name="tts" pkg="robocare_tts" type="robocare_tts" />
+    <node name="sound" pkg="robocare_sound" type="sound_node" />
+
+    <node name="social_tele_keyboard" pkg="social_tele_keyboard" type="social_tele_keyboard" />
+    <node name="ksia_scenario" pkg="ksia_scenario" type="ksia_scenario.py" />
+
+    <!-- <node name="teleop_twist_keyboard" pkg="teleop_twist_keyboard" type="teleop_twist_keyboard.py" /> -->
+    <!-- <include file="$(find robocare_navigation)/launch/robocare_navigation.launch" /> -->
+</launch>

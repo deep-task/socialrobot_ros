@@ -1,0 +1,8 @@
+prefix=/home/bomy/ksia_ws/src/5DOF_social_robot/social_motion/robocare_tts/build/devel
+
+Name: robocare_tts
+Description: Description of robocare_tts
+Version: 0.0.0
+Cflags: -I/home/bomy/ksia_ws/src/5DOF_social_robot/social_motion/robocare_tts/include
+Libs: -L/home/bomy/ksia_ws/src/5DOF_social_robot/social_motion/robocare_tts/build/devel/lib -lrobocare_tts
+Requires: roscpp std_msgs robocare_msgs
