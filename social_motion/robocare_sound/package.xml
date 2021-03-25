@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
-<package>
+<package format="2">
   <name>robocare_sound</name>
-  <version>0.0.1</version>
+  <version>0.0.0</version>
   <description>The robocare_sound package</description>
 
   <maintainer email="skkang@robocare.co.kr">skkang</maintainer>
@@ -11,14 +11,23 @@
 
   <!--   <test_depend>gtest</test_depend> -->
   <buildtool_depend>catkin</buildtool_depend>
+  <build_depend>pkg</build_depend>
   <build_depend>roscpp</build_depend>
   <build_depend>rospy</build_depend>
   <build_depend>std_msgs</build_depend>
   <build_depend>robocare_msgs</build_depend>
-  <run_depend>roscpp</run_depend>
-  <run_depend>rospy</run_depend>
-  <run_depend>std_msgs</run_depend>
-  <run_depend>robocare_msgs</run_depend>
+
+  <build_export_depend>pkg</build_export_depend>
+  <build_export_depend>roscpp</build_export_depend>
+  <build_export_depend>rospy</build_export_depend>
+  <build_export_depend>std_msgs</build_export_depend>
+  <build_export_depend>robocare_msgs</build_export_depend>
+
+  <exec_depend>pkg</exec_depend>
+  <exec_depend>roscpp</exec_depend>
+  <exec_depend>rospy</exec_depend>
+  <exec_depend>std_msgs</exec_depend>
+  <exec_depend>robocare_msgs</exec_depend>
 
   <!-- The export tag contains other, unspecified, tags -->
   <export>
